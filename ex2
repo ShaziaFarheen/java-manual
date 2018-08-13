@@ -1,0 +1,14 @@
+class test 
+{
+    int reg = 205055;
+    String name = "shazia";
+}
+public class Main
+{
+    public static void main(String args[])
+    {
+        test t = new test(); 
+        System.out.println("Reg No : " + t.reg);
+        System.out.println("Name : " + t.name);
+    }
+}
