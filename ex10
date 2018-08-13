@@ -1,0 +1,22 @@
+class sample
+{
+    void product(int x, float y)
+  {
+      System.out.println("The product of " + x + " and " + y + " is " + (x*y));
+      
+  }
+  void product(int x, int y, int z)
+  {
+      System.out.println("The product of " + x + " , " + y + " and " + z + " is " + (x*y*z));
+      
+  }
+}
+public class Main
+{
+    public static void main(String args[])
+    {
+        sample s = new sample();
+        s.product(29,5);
+        s.product(8,5,12);
+    }
+}
