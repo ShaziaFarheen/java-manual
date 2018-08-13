@@ -1,0 +1,24 @@
+class square 
+{
+    float side;
+    void getdata(float x)
+    {
+        side = x;
+    }
+    void area()
+    {
+        float a = side * side;
+        System.out.println("Area of Square with side : " + side + "is : " + a);
+    }
+}
+public class Main
+{
+    public static void main(String args[])
+    {
+        square a1 = new square(), a2 = new square();
+        a1.getdata(25);
+        a2.getdata(7);
+        a1.area();
+        a2.area();
+}
+}
