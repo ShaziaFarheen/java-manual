@@ -1,0 +1,19 @@
+class factorial
+{
+    void fact(int x)
+    {
+        int f=1;
+        for(int i=1;i<=x;i++)
+        {
+            f = f * i;
+        }
+        System.out.println("Factorial of " + x + " is : " + f);
+    }
+}
+public class Main
+{
+    public static void main(String args[])
+    {
+        new factorial().fact(7);
+    }
+}
