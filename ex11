@@ -1,0 +1,14 @@
+class sample 
+{
+    sample()
+  {
+      System.out.println("Sample is created");
+  }
+}
+public class Main
+{
+    public static void main(String args[])
+    {
+        sample s = new sample();
+    }
+}
