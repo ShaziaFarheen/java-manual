@@ -1,0 +1,32 @@
+class sample
+{
+    int reg, age;
+    String name;
+    sample(int r, String s)
+    {
+       reg = r;
+       name = s;
+    }
+    sample(int r, String s, int a)
+    {
+       reg = r;
+       name = s;
+       age = a;
+    }
+    void display()
+    {
+        System.out.println("Reg No : " + reg);
+        System.out.println("Name : " + name);
+        System.out.println("Age : " + age);
+    }
+}
+public class Main
+{
+    public static void main(String args[])
+    {
+        sample s1 = new sample(5055, "shazia",19);
+        sample s2 = new sample(5075, "ranbir");
+        s1.display();
+        s2.display();
+    }
+}
