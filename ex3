@@ -1,0 +1,9 @@
+class test 
+{
+    int reg;
+    String name;
+    void insertdata(int x, String y)
+    {
+        reg = x;
+        name = y;
+    }
