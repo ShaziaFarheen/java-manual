@@ -1,0 +1,18 @@
+class test
+{
+    int count =0;
+    test()
+    {
+       count++;
+       System.out.println("Value of count is "+count);
+    }
+}
+public class Main
+{
+    public static void main(String args[])
+    {
+        test s1 = new test();
+        test s2 = new test();
+        test s3 = new test();
+    }
+}
