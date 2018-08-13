@@ -1,0 +1,27 @@
+class test 
+{
+    int reg;
+    String name;
+    void insertdata(int x, String y)
+    {
+        reg = x;
+        name = y;
+    }
+    void display()
+    {
+        System.out.println("Reg No : " + reg);
+        System.out.println("Name : " + name);
+    }
+}
+public class Main
+{
+    public static void main(String args[])
+    {
+        test t1 = new test();
+        test t2 = new test();
+        t1.insertdata(5055, "Shazia");
+        t2.insertdata(5057, "YogaSri");
+        t1.display();
+        t2.display();
+    }
+}
