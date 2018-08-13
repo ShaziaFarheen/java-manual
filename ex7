@@ -1,0 +1,20 @@
+class square 
+{
+    void product(int x, int y)
+    {
+        System.out.println("The product of " + x + " and " + y + " is " + (x*y));     
+    }
+    void product(int x, int y, int z)
+    {
+        System.out.println("The product of " + x + " , " + y + " and " + z + " is " + (x*y*z));
+    }
+}
+public class Main
+{
+    public static void main(String args[])
+    {
+        square a = new square();
+        a.product(5,29);
+        a.product(8,8,5);
+    }
+}
